@@ -1,1 +1,29 @@
+:root {
+  --orange: #ff7a18;
+  --blue: #3aa6ff;
+  --green: #5fd3a2;
+  --dark: #1f2933;
+  --light: #f9fafb;
+  --gray: #6b7280;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: var(--light);
+  color: var(--dark);
+}
+
+a {
+  text-decoration: none;
+}
+
+.blue { color: var(--blue); }
+.orange { color: var(--orange); }
+.green { color: var(--green); }
 

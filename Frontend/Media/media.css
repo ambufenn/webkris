@@ -1,0 +1,92 @@
+/* HERO */
+.media-hero {
+  padding: 100px 80px;
+  background: linear-gradient(135deg, #0a2540, #2d8cff);
+  color: #fff;
+  text-align: center;
+}
+
+.media-hero h1 {
+  font-size: 48px;
+  line-height: 1.2;
+}
+
+.media-hero p {
+  max-width: 600px;
+  margin: 20px auto 30px;
+  font-size: 16px;
+  opacity: 0.9;
+}
+
+/* BUTTON */
+.btn.youtube {
+  background: #ff0000;
+  color: #fff;
+  padding: 14px 28px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.btn.youtube.large {
+  font-size: 18px;
+  padding: 16px 36px;
+}
+
+/* CONTENT */
+.media-content {
+  padding: 80px;
+  background: #f8f9fb;
+}
+
+.media-content h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  color: #0a2540;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.video-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.video-card iframe {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+  border: none;
+}
+
+.video-card h3 {
+  margin-top: 15px;
+  color: #0a2540;
+}
+
+.video-card p {
+  font-size: 14px;
+  color: #666;
+}
+
+/* CTA */
+.media-cta {
+  padding: 80px;
+  text-align: center;
+  background: #ffffff;
+}
+
+.media-cta h2 {
+  color: #0a2540;
+}
+
+.media-cta p {
+  margin: 15px 0 30px;
+  color: #555;
+}

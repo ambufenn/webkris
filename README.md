@@ -60,3 +60,57 @@ karya-reksa/
 ├── main.py                    # ⚠️ STREAMLIT (sementara, DEV ONLY)
 │
 └── README.md
+
+
+##versi github.io
+```text
+karya-reksa/
+│
+├── index.html              # ✅ ENTRY POINT GitHub Pages
+│
+├── Frontend/
+│   │
+│   ├── Home/
+│   │   ├── index.html
+│   │   ├── home.css
+│   │   └── home.js
+│   │
+│   ├── Services/
+│   │   ├── index.html
+│   │   └── services.js
+│   │
+│   ├── Courses/
+│   │   ├── index.html
+│   │   ├── detail.html
+│   │   └── courses.js
+│   │
+│   ├── Media/
+│   │   ├── index.html
+│   │   └── media.js
+│   │
+│   ├── Store/
+│   │   ├── index.html
+│   │   └── store.js
+│   │
+│   ├── Shared/
+│   │   ├── navbar.js
+│   │   ├── footer.js
+│   │   ├── theme.css
+│   │   └── global.js
+│   │
+│   └── Assets/
+│       ├── image/
+│       │   └── dora.png     # ⚠️ BUKAN images
+│       └── icons/
+│
+├── Backend/                # ❌ TIDAK dipakai GitHub Pages
+│   ├── main.py
+│   ├── Api/
+│   ├── Models/
+│   ├── Database/
+│   └── requirements.txt
+│
+├── main.py                 # Streamlit DEV ONLY
+│
+└── README.md
+

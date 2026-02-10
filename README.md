@@ -1,6 +1,6 @@
 # webkris
 ## 📁 Struktur Folder
-
+```text
 karya-reksa/
 │
 ├── frontend/                  # Seluruh tampilan website (UI)

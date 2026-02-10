@@ -20,4 +20,3 @@ document.getElementById("navbar").innerHTML = `
   </div>
 </nav>
 `;
-

@@ -5,26 +5,48 @@ body{
   color:#1f2937;
 }
 
-.navbar{
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  padding:20px 64px;
-  background:#ffffff;
-  box-shadow:0 2px 12px rgba(0,0,0,.06);
+/* NAVBAR */
+.navbar {
+  background: linear-gradient(135deg, #ff8c42, #2ecc71, #3498db);
+  padding: 15px 0;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
 }
 
-.logo{
-  font-size:20px;
-  font-weight:700;
-  color:var(--blue);
+.nav-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.navbar a{
-  margin-left:24px;
-  text-decoration:none;
-  color:#374151;
-  font-weight:500;
+/* LOGO */
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+  color: #fff;
+}
+
+/* NAV LINKS */
+.navbar nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.navbar nav a:hover {
+  opacity: 0.8;
+}
+
+/* BUTTON STYLE */
+.btn.primary {
+  background: #ffffff;
+  color: #333;
+  padding: 8px 14px;
+  border-radius: 6px;
 }
 
 .hero{
